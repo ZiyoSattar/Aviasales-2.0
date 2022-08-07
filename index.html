@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+</head>
+
+<body>
+
+  <main>
+    <section class="hero mt-5">
+      <div class="hero__container container">
+        <h1 class="hero__tittle text-center"> Aviasales 2.0 </h1>
+        <div class="hero__inner mt-5 w-25 m-auto">
+          <select class="hero__select form-select form-select-lg mb-5 " aria-label=".form-select-lg example">
+            <option selected hidden>Variantlar</option>
+            <option value="10920">Bilet $</option>
+            <option value="11052">Mehmonxona €</option>
+            <option value="10920">Sayoxat $</option>
+          </select>
+
+          <form class="hero__form">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Pulingizni kiriting</label>
+              <input type="text" class="hero__input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="summani kiriting">
+              <div id="emailHelp" class="form-text">Minimal 1092000 sum</div>
+            </div>
+           
+            <button type="submit" class="btn btn-primary">Tayyor</button>
+          </form>
+        </div>
+
+      </div>
+    </section>
+  </main>
+<script src="./script/app.js"></script>
+</body>
+
+</html>
